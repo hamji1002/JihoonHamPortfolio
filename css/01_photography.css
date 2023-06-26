@@ -5,16 +5,19 @@ body, html {
     margin: 0;
 }
 
+
 .container {
     position: relative;
 }
 
 .content {
-    align-items: flex-start;
+    align-items: center;
     display: flex; 
-    flex-direction: column; 
+    justify-content: center;
     margin: 100px; 
+    width: 100%;
 }
+
 
 .footer {
     flex-shrink: 0; 
@@ -27,7 +30,7 @@ body, html {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 10px;
 }
 
 h1 {
@@ -43,7 +46,8 @@ h1 {
 
 .image-text-container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .image-title {
@@ -95,9 +99,10 @@ h1 {
 
 .responsive-image {
     height: auto;
-    max-width: 50%; 
+    max-width: 50%;
     z-index: 1;
 }
+
 
 .text-section {
     padding: 0 15px;
